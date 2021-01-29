@@ -20,3 +20,4 @@ Part 1: The bug was that the inputs were read as strings. Thus, the calculateSum
 8. The Content-Type of the file is application/json.
    
 9.  The method inside the initiating file made the request is GET.
+
