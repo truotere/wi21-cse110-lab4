@@ -1,20 +1,22 @@
 
 // Debugging using the DevTools
 
-1. What is the name of the new json file?
+Part 1: The bug was that the inputs were read as strings. Thus, the calculateSum() function did a string concatenation. To turn the strings into numbers for addition, I prepended the inputs with '+'.
+
+1. The name of the new json file is citylots.json
    
-2. Which file initiated the download of the new file?
+2. File part2.js initiated the download of the new file.
    
-3. What is its file size?
+3. Its file size is 11.7 MB.
    
-4. How long did it take to download?
+4. It took 2.97 seconds to download.
    
-5. What was your User-Agent for the browser that made the request?
+5. My User-Agent for the browser that made the request is Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36
    
-6. In the response, what type of server did it come from?
+6. It came from Apache server. 
    
-7. When was the file last modified?
+7. The file was last modified Fri, 29 Jan 2021 14:11:06 GMT.
    
-8. What was the Content-Type of the file?
+8. The Content-Type of the file is application/json.
    
-9.  Which method inside the initiating file made the request?
+9.  The method inside the initiating file made the request is GET.
